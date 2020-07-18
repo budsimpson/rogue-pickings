@@ -11,7 +11,7 @@ body {
 
 
 .full-width {
-	margin: 0 auto;
+	margin: auto;
 	overflow: auto;
 	width: 1200px;
 }
@@ -36,8 +36,8 @@ header h1 {
 	color: #77a466;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
-	font-weight: bold;
-	padding: 30px 0px 20px 10px;
+	font-weight: 700;
+	padding: 30px 0px 0px 10px;
 }
 
 
@@ -48,7 +48,7 @@ header h1 span {
 
 nav {
 	float: right;
-	padding: 40px 10px 30px 0px;
+	padding: 40px 10px 10px 0px;
 }
 
 
@@ -62,7 +62,7 @@ nav ul li a {
 	color: #77a466;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 700;
 	padding-left: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -79,14 +79,100 @@ nav ul li a {
 }
 
 
-/***** FOOTER CSS *****/
-
-
-.bolded-upper {
-	color: ;
+#top-section .full-width {
+	padding: 10px;
 }
 
 
-.fresh {
+#top-section h2 {
+	color: #77a466;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+#top-section p {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+
+/***** BOTTOM SECTION CSS *****/
+
+
+#bottom-section .full-width {
+	padding: 20px 0;
+}
+
+
+#bottom-section h3 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	margin: 30px;
+	text-transform: uppercase;
+}
+
+
+#bottom-section p {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 30px;
+}
+
+#bottom-section a {
+	color: #77a466;
+}
+
+
+#bottom-section #specials {
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+}
+
+
+#bottom-section #reviews {
+	border: 1px solid #dedbdc;
+	margin: 0px -1px 0px -1px;
+	padding: 0px 0px 3px 0px;
+}
+
+
+#bottom-section #contact {
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+	padding: 0px 0px 45px 0px;
+}
+
+
+#bottom-section #contact p {
+	line-height: 24px; 
+}
+
+
+/***** FOOTER CSS *****/
+
+
+footer p {
+	text-align: center;
+}
+
+#bolded-upper {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+#fresh {
+	color: #77a466;
 	font-family: 'Galada', cursive;
 }
