@@ -1,0 +1,92 @@
+/***** BASE STYLES *****/
+
+
+body {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/***** GRID *****/
+
+
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1200px;
+}
+
+
+.half-width {
+	float: left;
+	width: 600px;
+}
+
+
+.third-width {
+	float: left;
+	width: 400px;
+}
+
+
+/***** HEADER CSS *****/
+
+
+header h1 {
+	color: #77a466;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 30px 0px 20px 10px;
+}
+
+
+header h1 span {
+	color: black;
+}
+
+
+nav {
+	float: right;
+	padding: 40px 10px 30px 0px;
+}
+
+
+nav ul li {
+	display: inline-block;
+}
+
+
+nav ul li a {
+	clear: both;
+	color: #77a466;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+/***** TOP SECTION CSS *****/
+
+
+#top-section img#hero-image {
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+	margin: auto;
+}
+
+
+/***** FOOTER CSS *****/
+
+
+.bolded-upper {
+	color: ;
+}
+
+
+.fresh {
+	font-family: 'Galada', cursive;
+}
